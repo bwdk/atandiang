@@ -10,18 +10,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <!--main style-->
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/bootstrap.css') }}" />
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/style.css') }}"  />
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ secure_asset('css/bootstrap.css') }}" />
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ secure_asset('css/style.css') }}"  />
         <!--background slider style-->
         <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
         <!--google font style-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300|Dancing+Script|Delius' rel='stylesheet' type='text/css'>
         <!--font-family: 'Open Sans', sans-serif;-->
         <!-- font css style-->
-        <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}" />
+        <link rel="stylesheet" href="{{ secure_asset('css/font-awesome.css') }}" />
         <!--for slider style-->
         <noscript>
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/fallback.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/fallback.css') }}" />
         </noscript>
         <!--[if lt IE 9]>
 			<link rel="stylesheet" type="text/css" href="css/fallback.css" />

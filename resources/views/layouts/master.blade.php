@@ -19,6 +19,7 @@
         <!--font-family: 'Open Sans', sans-serif;-->
         <!-- font css style-->
         <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}" />
+        <link rel="stylesheet" href="{{ secure_asset('css/AdminLTE.min.css') }}">
         <!--for slider style-->
         <noscript>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/fallback.css') }}" />

@@ -41,17 +41,17 @@
     </div>
     <!--wrapper end-->
     <!--modernizr js-->
-    <script type="text/javascript" src="{{ URL::asset('js/modernizr.custom.26633.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::secure_asset('js/modernizr.custom.26633.js') }}"></script>
     <!--jquery min js-->
-    <script type="text/javascript" src="{{ URL::asset('js/jquery.min.js') }}"></script>
-    <script src="{{ URL::asset('js/bootstrap.js') }}"></script>
-    <script type="text/javascript" src="{{ URL::asset('js/jquery.gridrotator.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::secure_asset('js/jquery.min.js') }}"></script>
+    <script src="{{ URL::secure_asset('js/bootstrap.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::secure_asset('js/jquery.gridrotator.js') }}"></script>
     <!--for custom jquary-->
-    <script src="{{ URL::asset('js/custom.js') }}"></script>
+    <script src="{{ URL::secure_asset('js/custom.js') }}"></script>
     <!--for placeholder jquery-->
-    <script type="text/javascript" src="{{ URL::asset('js/jquery.placeholder.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::secure_asset('js/jquery.placeholder.js') }}"></script>
     <!--for menu jquery-->
-    <script type="text/javascript" src="{{ URL::asset('js/stickUp.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::secure_asset('js/stickUp.js') }}"></script>
     <script type="text/javascript">
     jQuery(function($) {
     $(document).ready( function() {
@@ -95,17 +95,17 @@
     });
     </script>
     <!--for portfolio filter jquary-->
-    <script src="{{ asset('js/jquery.isotope.js') }}" type="text/javascript"></script>
+    <script src="{{ secure_asset('js/jquery.isotope.js') }}" type="text/javascript"></script>
     <!--for portfolio lightbox -->
-    <link type="text/css" rel="stylesheet" id="theme" href="{{ asset('css/jquery-ui-1.8.16.custom.css') }}" />
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/lightbox.min.css') }}" />
-    <script type="text/javascript" src="{{ asset('js/jquery.ui.widget.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jquery.ui.rlightbox.js') }}"></script>
+    <link type="text/css" rel="stylesheet" id="theme" href="{{ secure_asset('css/jquery-ui-1.8.16.custom.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ secure_asset('css/lightbox.min.css') }}" />
+    <script type="text/javascript" src="{{ secure_asset('js/jquery.ui.widget.min.js') }}"></script>
+    <script type="text/javascript" src="{{ secure_asset('js/jquery.ui.rlightbox.js') }}"></script>
     <!--for skill chat jquary-->
-    <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.easypiechart.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery.easing.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery.easypiechart.js') }}"></script>
     <!--contact form js-->
-    <script type="text/javascript" src="{{ asset('js/jquery.contact.js') }}"></script>
+    <script type="text/javascript" src="{{ secure_asset('js/jquery.contact.js') }}"></script>
 
     </body>
 </html>

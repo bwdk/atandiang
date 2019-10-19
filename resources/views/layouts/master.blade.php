@@ -27,7 +27,7 @@
 			<link rel="stylesheet" type="text/css" href="css/fallback.css" />
         <![endif]-->  
         
-        <title>@yield('title')</title>
+        <title>{{ setting('site.title') }}</title>
 
     </head>
 

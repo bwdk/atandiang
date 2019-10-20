@@ -44,14 +44,14 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests": "tests/"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
         "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "IlluminateFoundationComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
         "post-root-package-install": [
@@ -72,6 +72,10 @@
             "type": "composer",
             "url": "https://larapack.io"
         }
+
+    }
+
+}
 
         
 

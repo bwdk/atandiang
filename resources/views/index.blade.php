@@ -9,6 +9,7 @@
 @yield('content', View::make('areas.technical'))
 @yield('content', View::make('areas.exp'))
 @yield('content', View::make('areas.realisations'))
+@yield('content', View::make('areas.projects'))
 @yield('content', View::make('areas.education'))
 @yield('content', View::make('areas.interestwo'))
 @yield('content', View::make('areas.contact'))

@@ -31,6 +31,7 @@
                           <li class="menuItem"><a href="#technical">Competences</a></li>
                           <li class="menuItem"><a href="#experience">Experience</a></li>
                           <li class="menuItem"><a href="#realize">Realisations</a></li>
+                          <li class="menuItem"><a href="#projects">Projets</a></li>
                           <li class="menuItem"><a href="#education">Education</a></li>
                           <li class="menuItem"><a href="#portfolio">Centres d'interets</a></li>
                           <li class="menuItem"><a href="#contact">Contact</a></li>

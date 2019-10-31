@@ -2,6 +2,7 @@
  <section class="aboutme" id="aboutme">
         <div class="container">
           <div class="heading">
+
             <h2>A propos de moi</h2>
             <p></p>
           </div>

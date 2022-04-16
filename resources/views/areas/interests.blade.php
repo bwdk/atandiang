@@ -2,7 +2,7 @@
 <section class="portfolio" id="">
         <div class="container">
           <div class="heading">
-            <h2>Mes sujets du moment</h2>
+            <h2>Mes compétences</h2>
             <h4>IoT - INTRAPRENEURIAT - AUDIO - NOUVELLES METHODES DE TRAVAIL </h4>
           </div>
           <!--div class="portfolioFilter">

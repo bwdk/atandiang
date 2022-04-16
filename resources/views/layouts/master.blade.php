@@ -14,6 +14,11 @@
         <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/style.css') }}"  />
         <!--background slider style-->
         <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+        <!-- Project slider style-->
+        {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/normalize.css') }}" /> --}}
+		    <link rel="stylesheet" type="text/css" href="{{ asset('css/demo.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/component.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/coverflow.css') }}" />
         <!--google font style-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300|Dancing+Script|Delius' rel='stylesheet' type='text/css'>
         <!--font-family: 'Open Sans', sans-serif;-->
@@ -23,6 +28,7 @@
         <noscript>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/fallback.css') }}" />
         </noscript>
+
         <!--[if lt IE 9]>
 			<link rel="stylesheet" type="text/css" href="css/fallback.css" />
         <![endif]-->  
@@ -63,9 +69,10 @@
                       1: 'technical',
                       2: 'experience',
                       3: 'realize',
-                      4: 'education',
-                      5: 'portfolio',
-                      6: 'contact'
+                      4: 'projects',
+                      5: 'education',
+                      6: 'portfolio',
+                      7: 'contact'
                     },
                     itemClass: 'menuItem',
                     itemHover: 'active',
@@ -94,7 +101,7 @@
     
     });
     </script>
-    <!--for portfolio filter jquary-->
+    <!--for portfolio filter jquery-->
     <script src="{{ asset('js/jquery.isotope.js') }}" type="text/javascript"></script>
     <!--for portfolio lightbox -->
     <link type="text/css" rel="stylesheet" id="theme" href="{{ asset('css/jquery-ui-1.8.16.custom.css') }}" />
@@ -104,6 +111,13 @@
     <!--for skill chat jquary-->
     <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
     <script src="{{ asset('js/jquery.easypiechart.js') }}"></script>
+    <!-- JS Project Slider -->
+    <script type="text/javascript" src="{{ asset('js/utils/rAF.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/utils/easing.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/PrismSlider.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/slideshow1.js') }}"></script>
+    <!-- Coverslide JS -->
+    <script type="text/javascript" src="{{ asset('js/coverflow.js') }}"></script>
     <!--contact form js-->
     <script type="text/javascript" src="{{ asset('js/jquery.contact.js') }}"></script>
 

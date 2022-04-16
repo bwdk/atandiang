@@ -629,7 +629,42 @@ margin-top: 10%;
 }
 
 
+/*----------------------------------------------------
+ 7bis.	Projects Style
+------------------------------------------------------*/
+.projects{
+	background:rgb(255, 255, 255);
+	color: rgb(105, 105, 105);
+}
+.projects .container{
+	padding-top:85px ;
+	padding-bottom:90px ;
+}
 
+.projects h2{
+	color:#df6d67;
+}
+
+.projects h3{
+	color:#443f3f;
+}
+
+.projects p{
+	color:#84868d;
+	/*font-size:13px;*/
+	line-height:18px;
+}
+.projects .heading p{
+	padding-bottom:41px;
+}
+
+.projects h4{
+	font-weight:700;
+}
+
+.projects span{
+	line-height:20px;
+}
 
 /*----------------------------------------------------
  8.	Work Experience Style
@@ -1435,4 +1470,11 @@ ul.realizeContainer li:hover span.hoverBox .linKed{
 		top:0px;
 		
 	}
+
+
+	
+  
+  
+  
+  
 }
